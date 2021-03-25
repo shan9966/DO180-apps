@@ -2,9 +2,11 @@
   "name": "nodejs-app",
   "version": "1.0.0",
   "description": "Hello World App",
-  "main": "server.js",
+  "main": "app.js",
   "author": "Red Hat Training",
   "license": "ASL",
+  "scripts": {    "start": "node app.js"  }, 
+  "author": "Red Hat shan Training",
   "dependencies": {
     "express": "4.20",
     "html-errors": "latest"
